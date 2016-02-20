@@ -1,0 +1,6 @@
+---
+- name: update repositories cache
+  apt: update_cache=yes
+
+- name: update all packages to the latest version
+  apt: upgrade=dist
