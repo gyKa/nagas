@@ -6,3 +6,4 @@
   roles:
     - os
     - python3
+    - pip
