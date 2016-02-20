@@ -7,3 +7,4 @@
     - os
     - python3
     - pip
+    - virtualenv

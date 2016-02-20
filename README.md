@@ -4,3 +4,4 @@
 * Ansible
 * Python 3
 * Pip
+* VirtualEnv
