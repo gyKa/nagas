@@ -4,4 +4,5 @@
 
 - git: repo=https://github.com/gyKa/nagas.git
        dest={{ project_dir }}
+       accept_hostkey=yes
   become_user: "{{ project_user }}"
