@@ -6,3 +6,7 @@
 * Pip
 * VirtualEnv
 * Git
+
+## Vagrant
+
+Site can be reached using 192.168.35.10 IP address.
