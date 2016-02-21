@@ -3,7 +3,9 @@
   apt: name=git-core state=present
 
 - name: checkout the source code
-  git: repo={{ project_repo }}
-       dest={{ project_dir }}
-       accept_hostkey=yes
+  git:
+    repo={{ project_repo }}
+    dest={{ project_dir }}
+    accept_hostkey=yes
+    version=master
   become_user: "{{ project_user }}"
