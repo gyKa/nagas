@@ -1,0 +1,7 @@
+---
+- name: install git
+  apt: name=git-core state=present
+
+- git: repo=https://github.com/gyKa/nagas.git
+       dest={{ project_dir }}
+  become_user: "{{ project_user }}"

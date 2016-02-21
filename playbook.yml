@@ -5,6 +5,6 @@
   become_method: sudo
   roles:
     - os
+    - git
     - python3
     - pip
-    - virtualenv
