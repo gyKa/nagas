@@ -1,0 +1,6 @@
+---
+project_name: nagas
+project_user: vagrant
+project_dir: /vagrant
+
+python_version: 3.4
