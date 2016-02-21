@@ -4,3 +4,6 @@
 
 - name: update all packages to the latest version
   apt: upgrade=dist
+
+- name: create project user
+  user: name={{ project_user }}
