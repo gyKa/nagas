@@ -1,0 +1,12 @@
+---
+- name: install postgresql
+  apt: name=postgresql-9.4 state=present
+
+- name: create database
+  postgresql_db: name={{ database_name }}
+
+- name: create database user and grant access to database
+  postgresql_user:
+    db={{ database_name }}
+    name={{ database_username }}
+    password={{ database_password }}

@@ -4,4 +4,8 @@ project_user: vagrant
 project_dir: /vagrant
 project_repo: https://github.com/gyKa/nagas.git
 
+database_name: nagas
+database_username: nagas_user
+dabatase_password: nagas_pass
+
 python_version: 3.4
