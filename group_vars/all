@@ -2,5 +2,6 @@
 project_name: nagas
 project_user: vagrant
 project_dir: /vagrant
+project_repo: https://github.com/gyKa/nagas.git
 
 python_version: 3.4

@@ -2,7 +2,8 @@
 - name: install git
   apt: name=git-core state=present
 
-- git: repo=https://github.com/gyKa/nagas.git
+- name: checkout the source code
+  git: repo={{ project_repo }}
        dest={{ project_dir }}
        accept_hostkey=yes
   become_user: "{{ project_user }}"
